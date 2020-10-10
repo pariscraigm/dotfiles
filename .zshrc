@@ -19,7 +19,7 @@ unset __conda_setup
 # Git support
 autoload -Uz vcs_info
 zstyle ':vcs_info:*' enable git
-zstyle ':vcs_info:git*' formats "%F{5}(%fgit%F{5})%F{3}-%F{5}[%F{2}noci-cparis-update-bazel_master%F{5}]%f"
+zstyle ':vcs_info:git*' formats "%F{5}(%fgit%F{5})%F{3}-%F{5}[%F{2}%b%F{5}]%f"
 
 # Git tab-completion
 autoload -Uz compinit && compinit
